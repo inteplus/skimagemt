@@ -1,7 +1,7 @@
 '''Approximates a polygon with an axis-aligned rectangle.'''
 
 
-from geomt.rect import rect
+from mt.geo.rect import rect
 import numpy as _np
 import scipy.ndimage as _sn
 import skimage.transform.integral as _sti

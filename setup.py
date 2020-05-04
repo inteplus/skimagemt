@@ -15,7 +15,7 @@ setup(
     #include_package_data=True,
     #zip_safe=False,
     install_requires=[
-        'scikit-image>=0.14.0',
-        'geomt>=0.1.1',
+        'scikit-image>=0.15.0',
+        'geomt>=0.2.0',
     ],
 )
