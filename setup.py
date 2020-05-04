@@ -8,7 +8,7 @@ setup(
     version=version,
     description="Minh-Tri Pham's extra modules for scikit-image",
     author=["Minh-Tri Pham"],
-    packages=find_namespace_packages(include=['ml.*']),
+    packages=find_namespace_packages(include=['mt.*']),
     #package_data={
     #    'skimagemt': ['*.pyx'],
     #},
