@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 from setuptools import setup, find_namespace_packages
-from mt.skimage.version import version
+from mt.skimage.version import VERSION
 
 setup(
     name='skimagemt',
-    version=version,
+    version=VERSION,
     description="Minh-Tri Pham's extra modules for scikit-image",
     author=["Minh-Tri Pham"],
     packages=find_namespace_packages(include=['mt.*']),
