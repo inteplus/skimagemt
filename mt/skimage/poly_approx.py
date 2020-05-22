@@ -30,11 +30,13 @@ def rect_perimeter(img, r):
 def poly2rect(poly):
     '''Approximates a polygon with an axis-aligned rectangle by minimising the mean of point-to-polygon distances of all points on the rectangle.
 
-    :Parameters:
+    Parameters
+    ----------
         poly : numpy.array
             a list of 2D points forming a single polygon
 
-    :Returns:
+    Returns
+    -------
         rect : geomt.rect
             a 2D rectangle with integer coordinates
 
