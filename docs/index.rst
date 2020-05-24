@@ -10,6 +10,7 @@ Welcome to skimagemt's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   install
    autoapi/mt/skimage/index
 
    
